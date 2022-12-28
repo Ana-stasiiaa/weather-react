@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./styles.css";
 import App from "./App.js";
 import reportWebVitals from "./reportWebVitals";
-import axios from "axios";
+
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
