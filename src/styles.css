@@ -1,0 +1,81 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+h1 {
+  color: #9b5d73;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 20px;
+  margin-top: 14px;
+}
+
+ul {
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+li {
+  color: #c38b8b;
+  display: block;
+  font-size: 16px;
+  font-weight: 100;
+  height: 18px;
+  line-height: 1;
+  list-style: none;
+}
+
+.weather-app-wrapper {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.weather-app {
+  border: 2px solid #87a8d0;
+  padding: 15px;
+  border-radius: 8px;
+  background: linear-gradient(
+    109.6deg,
+    rgb(245, 239, 249) 30.1%,
+    rgb(207, 211, 236) 100.2%
+  );
+}
+
+.temperature {
+  color: #1d1716;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.weather-icon {
+  margin-top: -26px;
+}
+
+.units {
+  position: relative;
+  top: -28px;
+}
+
+.container-fluid {
+  background: radial-gradient(
+    343px at 46.3% 47.5%,
+    rgb(242, 242, 242) 0%,
+    rgb(241, 241, 241) 72.9%
+  );
+}
+
+.container-temp {
+  font-size: 12px;
+  padding: 10px;
+}
+
+.weather-temperature .active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
